@@ -18,7 +18,7 @@ class Player(Entity):
         self.gold = 0
         self.inventory = []
         self.weapon = None
-        self.status_effects = {}  # Tracks status effects like poison
+        self.status_effects = {}  # Tracks status effects like poison, burn, and freeze
         self.x = 0
         self.y = 0
 
